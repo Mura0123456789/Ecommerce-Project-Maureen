@@ -28,6 +28,7 @@ docker-compose.yml   One-command setup for the whole stack
 
 RUNNING THE PROJECT WITH DOCKER (RECOMMENDED)
 -----------------------------------------------
+Github Repo: https://github.com/Mura0123456789/Ecommerce-Project-Maureen.git
 1. Copy backend/.env.example to backend/.env and fill in real values
    (at minimum set a JWT_SECRET; SMTP values can stay as placeholders
    if you don't need real emails to send).
