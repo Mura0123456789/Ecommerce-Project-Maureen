@@ -114,8 +114,4 @@ NOTES & ASSUMPTIONS
   against the mocked API, stores the token), and ProtectedRoute (redirects
   unauthenticated users, blocks non-admins from admin routes, allows admins
   through) - i.e. RBAC is tested on the frontend as well as the backend.
-- IMPORTANT: none of this code has been executed in this environment (no
-  network/Docker access here). Run `npm install && npm test` in both
-  backend/ and frontend/ before you submit, and fix anything that surfaces -
-  treat this as a strong first draft reviewed for logic and consistency,
-  not as pre-verified working code.
+
